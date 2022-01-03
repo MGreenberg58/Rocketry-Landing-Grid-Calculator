@@ -9,9 +9,9 @@ def getMouseCoords(event, x, y, flags, params):
         gndStationYPix = y
 
 
-image = cv2.imread("C:/Users/green/PycharmProjects/pythonProject/dog.jfif")
+image = cv2.imread("C:/Users/green/PycharmProjects/pythonProject/image.jfif")
 
-gndStationImg = Image.open("C:/Users/green/PycharmProjects/pythonProject/dog.jfif")
+gndStationImg = Image.open("C:/Users/green/PycharmProjects/pythonProject/image.jfif")
 draw = ImageDraw.Draw(gndStationImg)
 
 heightFt = float(input("What is the height of this image (ft)"))
